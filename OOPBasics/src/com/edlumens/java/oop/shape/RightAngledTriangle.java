@@ -1,11 +1,11 @@
 package com.edlumens.java.oop.shape;
 
-public class Triangle extends Shape {
+public class RightAngledTriangle extends Shape {
     
     private double base;
     private double height;
     
-    public Triangle(double base, double height, String colour ) {
+    public RightAngledTriangle(double base, double height, String colour ) {
     	super( colour );
         this.base = base;
         this.height = height;

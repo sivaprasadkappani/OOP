@@ -3,7 +3,7 @@ package com.edlumens.java.oop.shape;
 public class ShapeAreaCalculator {
 	
 	 // Method to calculate total area of shapes
-    public static double calculateTotalArea(Shape[] shapes) {
+    public double calculateTotalArea(Shape[] shapes) {
         double totalArea = 0;
         
         // Iterate through the array and sum up the areas

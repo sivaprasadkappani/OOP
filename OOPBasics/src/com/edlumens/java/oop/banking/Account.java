@@ -19,4 +19,18 @@ abstract class Account {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Balance: $" + balance);
     }
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public int compareTo(SavingsAccount other) {
+		// TODO Auto-generated method stub
+		return other.getAccountNumber().compareTo( this.getAccountNumber());
+	}
+    
 }

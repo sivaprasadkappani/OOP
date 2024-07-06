@@ -1,6 +1,7 @@
 package com.edlumens.java.oop.banking;
 
-class SavingsAccount extends Account {
+class SavingsAccount extends Account 
+  implements Comparable<SavingsAccount>{
     private double interestRate;
 
     public SavingsAccount(String accountNumber, double balance, double interestRate) {
@@ -14,6 +15,13 @@ class SavingsAccount extends Account {
         System.out.println("$" + amount + " deposited into Savings Account.");
     }
 
+	@Override
+	void withdraw(double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+    /*
     @Override
     void withdraw(double amount) {
         if (amount <= balance) {
@@ -23,4 +31,10 @@ class SavingsAccount extends Account {
             System.out.println("Insufficient funds in Savings Account.");
         }
     }
+    */
+    
+   
+
+ 
+	 
 }
